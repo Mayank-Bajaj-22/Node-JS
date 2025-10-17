@@ -125,3 +125,42 @@ Merger of Node.js and io.js:
     • JavaScript
         • Basic & Intermediate
         • ES6 & Above
+
+REPL (Read-Eval-Print Loop)
+
+    Introduction to REPL (Read-Eval-Print Loop)
+
+        • It stands for Read-Eval-Print Loop or Read, Evaluate, Print and Loop. It’s an interactive programming environment that allows you to execute JavaScript code one statement at a time.
+        • You can open your terminal and use node command.
+        • You can use it to test simple JavaScript code similar to browser devtools.
+        • Ctrl + C or Ctrl + D to exit out of it.
+
+
+    Each part of the acronym highlights a specific step in how the REPL works:
+
+        • Read: The REPL reads the user’s input (a single line or multiple lines of code) and parses it into a data structure that the JavaScript engine can understand.
+        • Eval (Evaluate): The parsed input is evaluated (executed) by the JavaScript engine. If the input is a valid expression, the REPL computes the result.
+        • Print: The result of the evaluated expression is printed back to the console so the user can see the output.
+        • Loop: The process then loops back, waiting for the next input, and continues until the user exits.
+
+
+Node.js Basics
+
+    • Understanding the Node.js Module System
+    • Creating and Organizing Modules
+    • Common Node.js Built-in Modules
+    • Streams and Buffers
+    • Introduction to package.json
+    • ES Modules in Node.js
+
+
+What is CLI?
+
+    • CLI (Command Line Interface) is a way to execute predefined JavaScript files or run commands for tasks like installing packages, running scripts, or starting applications.
+
+
+When to Use CLI?
+
+    • Building Applications: Execute your scripts to run applications or servers.
+    • Automation: Use npm scripts for repetitive tasks (e.g., building or testing code).
+    • Large-Scale Projects: Execute full files for consistent and reusable logic.
