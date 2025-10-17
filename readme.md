@@ -1,10 +1,12 @@
 Introduction to Node.js
+
     • Open-source, server-side JavaScript runtime.
     • Allows you to run JavaScript on your machine or servers.
     • Built on the V8 JavaScript engine for speed.
     • Robust ecosystem with npm.
 
 Open Source??
+
     Open-source means that the source code of Node.js is
     publicly available.
 
@@ -14,6 +16,7 @@ Open Source??
         • Contribute: Developers around the world actively contribute to improving Node.js.
 
 Cross-Platform??
+
     Cross-platform means Node.js can run on multiple operating systems without needing major changes.
 
     Supported platforms:
@@ -22,6 +25,7 @@ Cross-Platform??
         • linux
 
 JavaScript Runtime Environment??
+
     JavaScript runtime environment refers to the environment where your JavaScript code runs.
 
     In browsers: JavaScript typically runs in the browser (like Chrome or Firefox) to handle frontend tasks.
@@ -45,6 +49,7 @@ Why is Node.js Special as a Runtime?
 
 
 Why Do We Need Node.js?
+
     Single Language for Full Stack Development:
         ▪ Developers can use JavaScript for both frontend and backend, reducing complexity.
         ▪ For example, a MERN stack project (MongoDB, Express, React, Node).
@@ -62,6 +67,7 @@ Why Do We Need Node.js?
 
 
 Where Is Node.js Used?
+
     Examples of Companies Using Node.js:
 
         • Netflix: To deliver faster streaming experiences.
@@ -72,4 +78,50 @@ Where Is Node.js Used?
 
 
 Is it a Language or a Framework?
+
     Node.js is not a programming language or a framework, but rather a JavaScript runtime environment that allows developers to run JavaScript outside of a browser.
+
+History and Evolution
+
+    • JavaScript's Initial Role: Initially, JavaScript was only used for client-side tasks in web browsers.
+
+    • Creation of Node.js (2009): Ryan Dahl created Node.js by taking the V8 JavaScript engine (used in Google Chrome) and running it outside the browser. This innovation allowed JavaScript to handle server side development.
+
+    • Introduction of Modules: Node.js came with built-in modules like http, which made it popular for creating backend applications.
+
+    • npm (2010): Node.js launched its package manager (npm) in 2010, revolutionizing JavaScript development by simplifying package sharing and dependency management.
+
+    • io.js and Node.js Merger (2015): In 2015, Node.js merged with io.js, reuniting the ecosystem and bringing in community-driven improvements.
+
+    • Node.js Foundation (2015):  The Node.js Foundation was established to support collaboration, innovation, and sustainable development within the ecosystem.
+
+
+Some Famous npm Packages
+
+    • Express.js: A popular framework for building web applications and APIs.
+    • Mongoose:  A package for interacting with MongoDB databases using an object data modeling (ODM) approach.
+    • Axios:  A promise-based HTTP client for making API requests.
+    • React (and React-DOM): Though originally developed for the browser, React can be installed via npm for building modern web applications.
+    • Socket.IO: Enables real-time communication between clients and servers.
+    • Passport.js: Authentication middleware for Node.js.
+
+
+Merger of Node.js and io.js:
+
+    What happened:
+
+        • io.js was a fork of Node.js created by developers who wanted faster updates and improvements. The merger brought io.js’s community-driven innovations back into the main Node.js project.
+
+        • The actual merger took place in September 2015, resulting in the release of Node.js v4.0. This version combined the best features of both projects, including V8 ES6 support from io.js, and marked the beginning of a Long Term Support (LTS) release cycle for Node.js.
+
+        • This ensured faster progress, stability, and a unified ecosystem for
+        developers.
+
+
+ Prerequisites to Learn Node.js
+
+    • HTML
+    • CSS
+    • JavaScript
+        • Basic & Intermediate
+        • ES6 & Above
